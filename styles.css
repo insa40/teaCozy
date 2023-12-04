@@ -49,8 +49,8 @@ nav a {
 }
 
 .image-banner img {
-  width: 100%;
-  height: auto;
+  width: 1200px;
+  height: 700px;
 }
 
 .text-banner {
@@ -59,7 +59,7 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #fff;
+  color: seashell;
 }
 
 .text-banner h2 {
