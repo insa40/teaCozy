@@ -1,0 +1,46 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: "Helvetica", sans-serif;
+    background-color: black; 
+    color: seashell; 
+    padding: 0px; 
+    border-bottom: 1px solid seashell;
+    z-index: 1000; /* Ensure the header is above other elements */
+}
+.fixed-header h1 {
+  font-family: 'Dancing Script', cursive;
+  float: left;
+  margin: 0px 0px 0px;
+  font-size: 50px;
+  padding: 8px 0px 8px 10px;  
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li {
+  font-size: 22px;
+  color: seashell;
+  float: right;
+  padding: 0px 20px;
+  display: inline;
+  margin-right: 5px;
+}
+nav a {
+  text-decoration: underline;
+  color: seashell;
+  font-weight: none;
+  display: block;
+}
+
