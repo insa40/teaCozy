@@ -17,7 +17,10 @@ body {
     border-bottom: 1px solid seashell;
     z-index: 1000; /* Ensure the header is above other elements */
 }
-
+.logo {
+  height: 50px;
+    
+}
 nav ul {
   list-style: none;
   display: flex;
@@ -54,6 +57,7 @@ nav a {
   transform: translate(-50%, -50%);
   text-align: center;
   color: seashell;
+  background-color: black;
 }
 
 .text-banner h2 {
