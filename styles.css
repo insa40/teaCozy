@@ -9,6 +9,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    height: 69px;
     width: 100%;
     font-family: "Helvetica", sans-serif;
     background-color: black; 
@@ -16,17 +17,23 @@ body {
     padding: 0px; 
     border-bottom: 1px solid seashell;
     z-index: 1000; /* Ensure the header is above other elements */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.logo {
+.fixed-header h1 {
   height: 50px;
-    
+  width: auto;
+  padding: 0 0 0 10px;
+  display: flex;
+  justify-content: flex-start;
 }
-nav ul {
+.fixed-header nav ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
 }
-nav ul li {
+.fixed-header nav ul li {
   font-size: 22px;
   color: seashell;
   float: right;
@@ -34,7 +41,7 @@ nav ul li {
   display: inline;
   margin-right: 5px;
 }
-nav a {
+.fixed-header nav a {
   text-decoration: underline;
   color: seashell;
   font-weight: none;
@@ -43,21 +50,33 @@ nav a {
 
 .image-banner {
   position: relative;
+  
 }
 
 .image-banner img {
   width: 1200px;
   height: 700px;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
 }
 
 .text-banner {
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: seashell;
   background-color: black;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center text horizontally */
+  
 }
 
 .text-banner h2 {
@@ -68,4 +87,10 @@ nav a {
 .text-banner p {
   font-size: 18px;
   margin: 10px 0 0;
+}
+
+.tea-of-month {
+  text-align: center;
+  color: seashell;
+  
 }
