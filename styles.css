@@ -17,13 +17,7 @@ body {
     border-bottom: 1px solid seashell;
     z-index: 1000; /* Ensure the header is above other elements */
 }
-.fixed-header h1 {
-  font-family: 'Dancing Script', cursive;
-  float: left;
-  margin: 0px 0px 0px;
-  font-size: 50px;
-  padding: 8px 0px 8px 10px;  
-}
+
 nav ul {
   list-style: none;
   display: flex;
