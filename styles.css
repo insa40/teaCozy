@@ -162,5 +162,10 @@ body {
 #container3 {
   margin-left: 340px; 
 }
+/* Contact Info */
+.contact-info {
+  height: 200px;
+  text-align: center;
+}
 /* Footer */
 
